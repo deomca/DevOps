@@ -101,8 +101,7 @@
                                                     <td height="30" valign="center" align="right">
                                                         Password:
                                                     </td>
-                                                    <td valign="center">
-                                                        <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
+                                                    <td valign="center"><asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -110,8 +109,7 @@
                                                         &nbsp;
                                                     </td>
                                                     <td align="left">
-                                                        <asp:Button ID="btnLogin" runat="server" Text="L O G I N" 
-                                                            onclick="btnLogin_Click1" />
+                                                        <asp:Button ID="btnLogin" runat="server" Text="L O G I N" OnClick="btnLogin_Click1" />
                                                         <br>
                                                         <br>
                                                     </td>
